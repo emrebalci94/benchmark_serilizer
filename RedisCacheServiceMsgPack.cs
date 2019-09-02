@@ -11,7 +11,7 @@ namespace benchmark_serilizer
 
         public RedisCacheServiceMsgPack()
         {
-            var connectionString = "10.20.48.86:6379";
+            var connectionString = "localhost:6379";
 
             ConfigurationOptions options = new ConfigurationOptions
             {
