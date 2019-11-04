@@ -1,0 +1,380 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in D:\Me-Projects\benchmark_serilizer\bin\Release\netcoreapp2.2\7f0ce835-d3e6-4938-98a8-94c1cd2c2d06
+// command took 2,39s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in D:\Me-Projects\benchmark_serilizer\bin\Release\netcoreapp2.2\7f0ce835-d3e6-4938-98a8-94c1cd2c2d06
+// command took 4,03s and exited with 0
+// ***** Done, took 00:00:06 (6.59 sec)   *****
+// Found 2 benchmarks:
+//   SerializersBenchmark.ToJson: Job-KZKGUT(IterationCount=100, RunStrategy=Monitoring)
+//   SerializersBenchmark.ToBtye: Job-KZKGUT(IterationCount=100, RunStrategy=Monitoring)
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: Yüksek performans)// **************************
+// Benchmark: SerializersBenchmark.ToJson: Job-KZKGUT(IterationCount=100, RunStrategy=Monitoring)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "7f0ce835-d3e6-4938-98a8-94c1cd2c2d06.dll" --benchmarkName "benchmark_serilizer.SerializersBenchmark.ToJson" --job "IterationCount=100, RunStrategy=Monitoring" --benchmarkId 0 in D:\Me-Projects\benchmark_serilizer\bin\Release\netcoreapp2.2\7f0ce835-d3e6-4938-98a8-94c1cd2c2d06\bin\Release\netcoreapp2.2
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-TSOASN(IterationCount=100, RunStrategy=Monitoring)
+
+WorkloadWarmup   1: 1 op, 56191600.00 ns, 56.1916 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 1 op, 450200.00 ns, 450.2000 us/op
+WorkloadActual   2: 1 op, 439500.00 ns, 439.5000 us/op
+WorkloadActual   3: 1 op, 510100.00 ns, 510.1000 us/op
+WorkloadActual   4: 1 op, 402200.00 ns, 402.2000 us/op
+WorkloadActual   5: 1 op, 427600.00 ns, 427.6000 us/op
+WorkloadActual   6: 1 op, 418400.00 ns, 418.4000 us/op
+WorkloadActual   7: 1 op, 437700.00 ns, 437.7000 us/op
+WorkloadActual   8: 1 op, 408000.00 ns, 408.0000 us/op
+WorkloadActual   9: 1 op, 633200.00 ns, 633.2000 us/op
+WorkloadActual  10: 1 op, 443000.00 ns, 443.0000 us/op
+WorkloadActual  11: 1 op, 600700.00 ns, 600.7000 us/op
+WorkloadActual  12: 1 op, 419700.00 ns, 419.7000 us/op
+WorkloadActual  13: 1 op, 398700.00 ns, 398.7000 us/op
+WorkloadActual  14: 1 op, 397500.00 ns, 397.5000 us/op
+WorkloadActual  15: 1 op, 462400.00 ns, 462.4000 us/op
+WorkloadActual  16: 1 op, 505800.00 ns, 505.8000 us/op
+WorkloadActual  17: 1 op, 400500.00 ns, 400.5000 us/op
+WorkloadActual  18: 1 op, 450200.00 ns, 450.2000 us/op
+WorkloadActual  19: 1 op, 443200.00 ns, 443.2000 us/op
+WorkloadActual  20: 1 op, 450300.00 ns, 450.3000 us/op
+WorkloadActual  21: 1 op, 408500.00 ns, 408.5000 us/op
+WorkloadActual  22: 1 op, 543100.00 ns, 543.1000 us/op
+WorkloadActual  23: 1 op, 537300.00 ns, 537.3000 us/op
+WorkloadActual  24: 1 op, 499400.00 ns, 499.4000 us/op
+WorkloadActual  25: 1 op, 458400.00 ns, 458.4000 us/op
+WorkloadActual  26: 1 op, 423100.00 ns, 423.1000 us/op
+WorkloadActual  27: 1 op, 458000.00 ns, 458.0000 us/op
+WorkloadActual  28: 1 op, 456300.00 ns, 456.3000 us/op
+WorkloadActual  29: 1 op, 703000.00 ns, 703.0000 us/op
+WorkloadActual  30: 1 op, 473600.00 ns, 473.6000 us/op
+WorkloadActual  31: 1 op, 421000.00 ns, 421.0000 us/op
+WorkloadActual  32: 1 op, 726600.00 ns, 726.6000 us/op
+WorkloadActual  33: 1 op, 468600.00 ns, 468.6000 us/op
+WorkloadActual  34: 1 op, 549500.00 ns, 549.5000 us/op
+WorkloadActual  35: 1 op, 423000.00 ns, 423.0000 us/op
+WorkloadActual  36: 1 op, 443600.00 ns, 443.6000 us/op
+WorkloadActual  37: 1 op, 419000.00 ns, 419.0000 us/op
+WorkloadActual  38: 1 op, 424900.00 ns, 424.9000 us/op
+WorkloadActual  39: 1 op, 421100.00 ns, 421.1000 us/op
+WorkloadActual  40: 1 op, 420800.00 ns, 420.8000 us/op
+WorkloadActual  41: 1 op, 425800.00 ns, 425.8000 us/op
+WorkloadActual  42: 1 op, 475900.00 ns, 475.9000 us/op
+WorkloadActual  43: 1 op, 491900.00 ns, 491.9000 us/op
+WorkloadActual  44: 1 op, 591000.00 ns, 591.0000 us/op
+WorkloadActual  45: 1 op, 464700.00 ns, 464.7000 us/op
+WorkloadActual  46: 1 op, 482400.00 ns, 482.4000 us/op
+WorkloadActual  47: 1 op, 421500.00 ns, 421.5000 us/op
+WorkloadActual  48: 1 op, 464300.00 ns, 464.3000 us/op
+WorkloadActual  49: 1 op, 460200.00 ns, 460.2000 us/op
+WorkloadActual  50: 1 op, 448000.00 ns, 448.0000 us/op
+WorkloadActual  51: 1 op, 535500.00 ns, 535.5000 us/op
+WorkloadActual  52: 1 op, 469100.00 ns, 469.1000 us/op
+WorkloadActual  53: 1 op, 717400.00 ns, 717.4000 us/op
+WorkloadActual  54: 1 op, 431900.00 ns, 431.9000 us/op
+WorkloadActual  55: 1 op, 505000.00 ns, 505.0000 us/op
+WorkloadActual  56: 1 op, 466000.00 ns, 466.0000 us/op
+WorkloadActual  57: 1 op, 714000.00 ns, 714.0000 us/op
+WorkloadActual  58: 1 op, 501400.00 ns, 501.4000 us/op
+WorkloadActual  59: 1 op, 427900.00 ns, 427.9000 us/op
+WorkloadActual  60: 1 op, 443100.00 ns, 443.1000 us/op
+WorkloadActual  61: 1 op, 455600.00 ns, 455.6000 us/op
+WorkloadActual  62: 1 op, 487800.00 ns, 487.8000 us/op
+WorkloadActual  63: 1 op, 474800.00 ns, 474.8000 us/op
+WorkloadActual  64: 1 op, 458800.00 ns, 458.8000 us/op
+WorkloadActual  65: 1 op, 477100.00 ns, 477.1000 us/op
+WorkloadActual  66: 1 op, 436300.00 ns, 436.3000 us/op
+WorkloadActual  67: 1 op, 445200.00 ns, 445.2000 us/op
+WorkloadActual  68: 1 op, 430600.00 ns, 430.6000 us/op
+WorkloadActual  69: 1 op, 431600.00 ns, 431.6000 us/op
+WorkloadActual  70: 1 op, 532800.00 ns, 532.8000 us/op
+WorkloadActual  71: 1 op, 484100.00 ns, 484.1000 us/op
+WorkloadActual  72: 1 op, 498200.00 ns, 498.2000 us/op
+WorkloadActual  73: 1 op, 448600.00 ns, 448.6000 us/op
+WorkloadActual  74: 1 op, 483400.00 ns, 483.4000 us/op
+WorkloadActual  75: 1 op, 477000.00 ns, 477.0000 us/op
+WorkloadActual  76: 1 op, 473000.00 ns, 473.0000 us/op
+WorkloadActual  77: 1 op, 563600.00 ns, 563.6000 us/op
+WorkloadActual  78: 1 op, 480900.00 ns, 480.9000 us/op
+WorkloadActual  79: 1 op, 491800.00 ns, 491.8000 us/op
+WorkloadActual  80: 1 op, 491600.00 ns, 491.6000 us/op
+WorkloadActual  81: 1 op, 450200.00 ns, 450.2000 us/op
+WorkloadActual  82: 1 op, 796200.00 ns, 796.2000 us/op
+WorkloadActual  83: 1 op, 692100.00 ns, 692.1000 us/op
+WorkloadActual  84: 1 op, 589300.00 ns, 589.3000 us/op
+WorkloadActual  85: 1 op, 466800.00 ns, 466.8000 us/op
+WorkloadActual  86: 1 op, 600700.00 ns, 600.7000 us/op
+WorkloadActual  87: 1 op, 474500.00 ns, 474.5000 us/op
+WorkloadActual  88: 1 op, 466400.00 ns, 466.4000 us/op
+WorkloadActual  89: 1 op, 463600.00 ns, 463.6000 us/op
+WorkloadActual  90: 1 op, 483500.00 ns, 483.5000 us/op
+WorkloadActual  91: 1 op, 454000.00 ns, 454.0000 us/op
+WorkloadActual  92: 1 op, 518500.00 ns, 518.5000 us/op
+WorkloadActual  93: 1 op, 468300.00 ns, 468.3000 us/op
+WorkloadActual  94: 1 op, 470900.00 ns, 470.9000 us/op
+WorkloadActual  95: 1 op, 445300.00 ns, 445.3000 us/op
+WorkloadActual  96: 1 op, 455000.00 ns, 455.0000 us/op
+WorkloadActual  97: 1 op, 488900.00 ns, 488.9000 us/op
+WorkloadActual  98: 1 op, 473900.00 ns, 473.9000 us/op
+WorkloadActual  99: 1 op, 434600.00 ns, 434.6000 us/op
+WorkloadActual  100: 1 op, 438600.00 ns, 438.6000 us/op
+
+// AfterActualRun
+WorkloadResult   1: 1 op, 450200.00 ns, 450.2000 us/op
+WorkloadResult   2: 1 op, 439500.00 ns, 439.5000 us/op
+WorkloadResult   3: 1 op, 510100.00 ns, 510.1000 us/op
+WorkloadResult   4: 1 op, 402200.00 ns, 402.2000 us/op
+WorkloadResult   5: 1 op, 427600.00 ns, 427.6000 us/op
+WorkloadResult   6: 1 op, 418400.00 ns, 418.4000 us/op
+WorkloadResult   7: 1 op, 437700.00 ns, 437.7000 us/op
+WorkloadResult   8: 1 op, 408000.00 ns, 408.0000 us/op
+WorkloadResult   9: 1 op, 633200.00 ns, 633.2000 us/op
+WorkloadResult  10: 1 op, 443000.00 ns, 443.0000 us/op
+WorkloadResult  11: 1 op, 600700.00 ns, 600.7000 us/op
+WorkloadResult  12: 1 op, 419700.00 ns, 419.7000 us/op
+WorkloadResult  13: 1 op, 398700.00 ns, 398.7000 us/op
+WorkloadResult  14: 1 op, 397500.00 ns, 397.5000 us/op
+WorkloadResult  15: 1 op, 462400.00 ns, 462.4000 us/op
+WorkloadResult  16: 1 op, 505800.00 ns, 505.8000 us/op
+WorkloadResult  17: 1 op, 400500.00 ns, 400.5000 us/op
+WorkloadResult  18: 1 op, 450200.00 ns, 450.2000 us/op
+WorkloadResult  19: 1 op, 443200.00 ns, 443.2000 us/op
+WorkloadResult  20: 1 op, 450300.00 ns, 450.3000 us/op
+WorkloadResult  21: 1 op, 408500.00 ns, 408.5000 us/op
+WorkloadResult  22: 1 op, 543100.00 ns, 543.1000 us/op
+WorkloadResult  23: 1 op, 537300.00 ns, 537.3000 us/op
+WorkloadResult  24: 1 op, 499400.00 ns, 499.4000 us/op
+WorkloadResult  25: 1 op, 458400.00 ns, 458.4000 us/op
+WorkloadResult  26: 1 op, 423100.00 ns, 423.1000 us/op
+WorkloadResult  27: 1 op, 458000.00 ns, 458.0000 us/op
+WorkloadResult  28: 1 op, 456300.00 ns, 456.3000 us/op
+WorkloadResult  29: 1 op, 703000.00 ns, 703.0000 us/op
+WorkloadResult  30: 1 op, 473600.00 ns, 473.6000 us/op
+WorkloadResult  31: 1 op, 421000.00 ns, 421.0000 us/op
+WorkloadResult  32: 1 op, 726600.00 ns, 726.6000 us/op
+WorkloadResult  33: 1 op, 468600.00 ns, 468.6000 us/op
+WorkloadResult  34: 1 op, 549500.00 ns, 549.5000 us/op
+WorkloadResult  35: 1 op, 423000.00 ns, 423.0000 us/op
+WorkloadResult  36: 1 op, 443600.00 ns, 443.6000 us/op
+WorkloadResult  37: 1 op, 419000.00 ns, 419.0000 us/op
+WorkloadResult  38: 1 op, 424900.00 ns, 424.9000 us/op
+WorkloadResult  39: 1 op, 421100.00 ns, 421.1000 us/op
+WorkloadResult  40: 1 op, 420800.00 ns, 420.8000 us/op
+WorkloadResult  41: 1 op, 425800.00 ns, 425.8000 us/op
+WorkloadResult  42: 1 op, 475900.00 ns, 475.9000 us/op
+WorkloadResult  43: 1 op, 491900.00 ns, 491.9000 us/op
+WorkloadResult  44: 1 op, 591000.00 ns, 591.0000 us/op
+WorkloadResult  45: 1 op, 464700.00 ns, 464.7000 us/op
+WorkloadResult  46: 1 op, 482400.00 ns, 482.4000 us/op
+WorkloadResult  47: 1 op, 421500.00 ns, 421.5000 us/op
+WorkloadResult  48: 1 op, 464300.00 ns, 464.3000 us/op
+WorkloadResult  49: 1 op, 460200.00 ns, 460.2000 us/op
+WorkloadResult  50: 1 op, 448000.00 ns, 448.0000 us/op
+WorkloadResult  51: 1 op, 535500.00 ns, 535.5000 us/op
+WorkloadResult  52: 1 op, 469100.00 ns, 469.1000 us/op
+WorkloadResult  53: 1 op, 717400.00 ns, 717.4000 us/op
+WorkloadResult  54: 1 op, 431900.00 ns, 431.9000 us/op
+WorkloadResult  55: 1 op, 505000.00 ns, 505.0000 us/op
+WorkloadResult  56: 1 op, 466000.00 ns, 466.0000 us/op
+WorkloadResult  57: 1 op, 714000.00 ns, 714.0000 us/op
+WorkloadResult  58: 1 op, 501400.00 ns, 501.4000 us/op
+WorkloadResult  59: 1 op, 427900.00 ns, 427.9000 us/op
+WorkloadResult  60: 1 op, 443100.00 ns, 443.1000 us/op
+WorkloadResult  61: 1 op, 455600.00 ns, 455.6000 us/op
+WorkloadResult  62: 1 op, 487800.00 ns, 487.8000 us/op
+WorkloadResult  63: 1 op, 474800.00 ns, 474.8000 us/op
+WorkloadResult  64: 1 op, 458800.00 ns, 458.8000 us/op
+WorkloadResult  65: 1 op, 477100.00 ns, 477.1000 us/op
+WorkloadResult  66: 1 op, 436300.00 ns, 436.3000 us/op
+WorkloadResult  67: 1 op, 445200.00 ns, 445.2000 us/op
+WorkloadResult  68: 1 op, 430600.00 ns, 430.6000 us/op
+WorkloadResult  69: 1 op, 431600.00 ns, 431.6000 us/op
+WorkloadResult  70: 1 op, 532800.00 ns, 532.8000 us/op
+WorkloadResult  71: 1 op, 484100.00 ns, 484.1000 us/op
+WorkloadResult  72: 1 op, 498200.00 ns, 498.2000 us/op
+WorkloadResult  73: 1 op, 448600.00 ns, 448.6000 us/op
+WorkloadResult  74: 1 op, 483400.00 ns, 483.4000 us/op
+WorkloadResult  75: 1 op, 477000.00 ns, 477.0000 us/op
+WorkloadResult  76: 1 op, 473000.00 ns, 473.0000 us/op
+WorkloadResult  77: 1 op, 563600.00 ns, 563.6000 us/op
+WorkloadResult  78: 1 op, 480900.00 ns, 480.9000 us/op
+WorkloadResult  79: 1 op, 491800.00 ns, 491.8000 us/op
+WorkloadResult  80: 1 op, 491600.00 ns, 491.6000 us/op
+WorkloadResult  81: 1 op, 450200.00 ns, 450.2000 us/op
+WorkloadResult  82: 1 op, 796200.00 ns, 796.2000 us/op
+WorkloadResult  83: 1 op, 692100.00 ns, 692.1000 us/op
+WorkloadResult  84: 1 op, 589300.00 ns, 589.3000 us/op
+WorkloadResult  85: 1 op, 466800.00 ns, 466.8000 us/op
+WorkloadResult  86: 1 op, 600700.00 ns, 600.7000 us/op
+WorkloadResult  87: 1 op, 474500.00 ns, 474.5000 us/op
+WorkloadResult  88: 1 op, 466400.00 ns, 466.4000 us/op
+WorkloadResult  89: 1 op, 463600.00 ns, 463.6000 us/op
+WorkloadResult  90: 1 op, 483500.00 ns, 483.5000 us/op
+WorkloadResult  91: 1 op, 454000.00 ns, 454.0000 us/op
+WorkloadResult  92: 1 op, 518500.00 ns, 518.5000 us/op
+WorkloadResult  93: 1 op, 468300.00 ns, 468.3000 us/op
+WorkloadResult  94: 1 op, 470900.00 ns, 470.9000 us/op
+WorkloadResult  95: 1 op, 445300.00 ns, 445.3000 us/op
+WorkloadResult  96: 1 op, 455000.00 ns, 455.0000 us/op
+WorkloadResult  97: 1 op, 488900.00 ns, 488.9000 us/op
+WorkloadResult  98: 1 op, 473900.00 ns, 473.9000 us/op
+WorkloadResult  99: 1 op, 434600.00 ns, 434.6000 us/op
+WorkloadResult  100: 1 op, 438600.00 ns, 438.6000 us/op
+GC:  0 0 0 297280 1
+
+// AfterAll
+
+Mean = 483.6880 us, StdErr = 7.7049 us (1.59%); N = 100, StdDev = 77.0489 us
+Min = 397.5000 us, Q1 = 438.1500 us, Median = 464.5000 us, Q3 = 491.8500 us, Max = 796.2000 us
+IQR = 53.7000 us, LowerFence = 357.6000 us, UpperFence = 572.4000 us
+ConfidenceInterval = [457.5567 us; 509.8193 us] (CI 99.9%), Margin = 26.1313 us (5.40% of Mean)
+Skewness = 2.01, Kurtosis = 7.03, MValue = 3.22
+
+// **************************
+// Benchmark: SerializersBenchmark.ToBtye: Job-KZKGUT(IterationCount=100, RunStrategy=Monitoring)
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "7f0ce835-d3e6-4938-98a8-94c1cd2c2d06.dll" --benchmarkName "benchmark_serilizer.SerializersBenchmark.ToBtye" --job "IterationCount=100, RunStrategy=Monitoring" --benchmarkId 1 in D:\Me-Projects\benchmark_serilizer\bin\Release\netcoreapp2.2\7f0ce835-d3e6-4938-98a8-94c1cd2c2d06\bin\Release\netcoreapp2.2
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: Job-WXHNQY(IterationCount=100, RunStrategy=Monitoring)
+
+// Wrong assembly binding redirects for System.Runtime.Serialization.Formatters.resources, Version=4.0.3.0, Culture=tr-TR, PublicKeyToken=b03f5f7f11d50a3a.
+// Wrong assembly binding redirects for System.Runtime.Serialization.Formatters.resources, Version=4.0.3.0, Culture=tr, PublicKeyToken=b03f5f7f11d50a3a.
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Runtime.Serialization.SerializationException: Type 'benchmark_serilizer.RootObject' in Assembly 'benchmark_serilizer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' is not marked as serializable.
+   at System.Runtime.Serialization.FormatterServices.InternalGetSerializableMembers(Type type)
+   at System.Runtime.Serialization.FormatterServices.<>c.<GetSerializableMembers>b__5_0(MemberHolder mh)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type type, StreamingContext context)
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitMemberInfo()
+   at System.Runtime.Serialization.Formatters.Binary.WriteObjectInfo.InitSerialize(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, SerializationBinder binder)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.WriteArray(WriteObjectInfo objectInfo, NameInfo memberNameInfo, WriteObjectInfo memberObjectInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Write(WriteObjectInfo objectInfo, NameInfo memberNameInfo, NameInfo typeNameInfo)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectWriter.Serialize(Object graph, BinaryFormatterWriter serWriter, Boolean fCheck)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream serializationStream, Object graph, Boolean check)
+   at benchmark_serilizer.Extension.ObjectExteion.ToByte(Object obj) in D:\Me-Projects\benchmark_serilizer\Extensions\ObjextExtension.cs:line 23
+   at benchmark_serilizer.SerializersBenchmark.ToBtye() in D:\Me-Projects\benchmark_serilizer\SerializersBenchmark.cs:line 35
+   at BenchmarkDotNet.Autogenerated.Runnable_1.WorkloadActionUnroll(Int64 invokeCount) in D:\Me-Projects\benchmark_serilizer\bin\Release\netcoreapp2.2\7f0ce835-d3e6-4938-98a8-94c1cd2c2d06\7f0ce835-d3e6-4938-98a8-94c1cd2c2d06.notcs:line 1144
+   at BenchmarkDotNet.Engines.Engine.RunIteration(IterationData data)
+   at BenchmarkDotNet.Engines.EngineStage.RunIteration(IterationMode mode, IterationStage stage, Int32 index, Int64 invokeCount, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineStage.Run(IStoppingCriteria criteria, Int64 invokeCount, IterationMode mode, IterationStage stage, Int32 unrollFactor)
+   at BenchmarkDotNet.Engines.EngineWarmupStage.Run(Int64 invokeCount, IterationMode iterationMode, Int32 unrollFactor, RunStrategy runStrategy)
+   at BenchmarkDotNet.Engines.Engine.Run()
+   at BenchmarkDotNet.Autogenerated.Runnable_1.Run(IHost host, String benchmarkName) in D:\Me-Projects\benchmark_serilizer\bin\Release\netcoreapp2.2\7f0ce835-d3e6-4938-98a8-94c1cd2c2d06\7f0ce835-d3e6-4938-98a8-94c1cd2c2d06.notcs:line 694
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at BenchmarkDotNet.Autogenerated.UniqueProgramName.AfterAssemblyLoadingAttached(String[] args) in D:\Me-Projects\benchmark_serilizer\bin\Release\netcoreapp2.2\7f0ce835-d3e6-4938-98a8-94c1cd2c2d06\7f0ce835-d3e6-4938-98a8-94c1cd2c2d06.notcs:line 49
+// AfterAll
+ExitCode != 0
+No more Benchmark runs will be launched as NO measurements were obtained from the previous run!
+
+
+Successfully reverted power plan (GUID: 381b4222-f694-41f0-9685-ff5bb260df2e FriendlyName: Dengeli)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\benchmark_serilizer.SerializersBenchmark-report.csv
+  BenchmarkDotNet.Artifacts\results\benchmark_serilizer.SerializersBenchmark-report-github.md
+  BenchmarkDotNet.Artifacts\results\benchmark_serilizer.SerializersBenchmark-report.html
+
+// * Detailed results *
+SerializersBenchmark.ToJson: Job-KZKGUT(IterationCount=100, RunStrategy=Monitoring)
+Runtime = .NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 483.6880 us, StdErr = 7.7049 us (1.59%); N = 100, StdDev = 77.0489 us
+Min = 397.5000 us, Q1 = 438.1500 us, Median = 464.5000 us, Q3 = 491.8500 us, Max = 796.2000 us
+IQR = 53.7000 us, LowerFence = 357.6000 us, UpperFence = 572.4000 us
+ConfidenceInterval = [457.5567 us; 509.8193 us] (CI 99.9%), Margin = 26.1313 us (5.40% of Mean)
+Skewness = 2.01, Kurtosis = 7.03, MValue = 3.22
+-------------------- Histogram --------------------
+[382.975 us ; 417.325 us) | @@@@@@
+[417.325 us ; 448.325 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[448.325 us ; 477.375 us) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[477.375 us ; 507.875 us) | @@@@@@@@@@@@@@@
+[507.875 us ; 526.625 us) | @@
+[526.625 us ; 555.675 us) | @@@@@
+[555.675 us ; 580.475 us) | @
+[580.475 us ; 609.525 us) | @@@@
+[609.525 us ; 647.725 us) | @
+[647.725 us ; 677.575 us) | 
+[677.575 us ; 700.275 us) | @
+[700.275 us ; 729.325 us) | @@@@
+[729.325 us ; 758.374 us) | 
+[758.374 us ; 781.675 us) | 
+[781.675 us ; 810.725 us) | @
+---------------------------------------------------
+
+SerializersBenchmark.ToBtye: Job-KZKGUT(IterationCount=100, RunStrategy=Monitoring)
+Runtime = ; GC = 
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet=v0.11.5, OS=Windows 10.0.17763.720 (1809/October2018Update/Redstone5)
+Intel Core i7-8565U CPU 1.80GHz (Whiskey Lake), 1 CPU, 8 logical and 4 physical cores
+.NET Core SDK=2.2.401
+  [Host]     : .NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT
+  Job-KZKGUT : .NET Core 2.2.6 (CoreCLR 4.6.27817.03, CoreFX 4.6.27818.02), 64bit RyuJIT
+
+IterationCount=100  RunStrategy=Monitoring  
+
+| Method |     Mean |    Error |   StdDev |      Min |       Q1 |       Q3 |      Max |   Median | Gen 0 | Gen 1 | Gen 2 | Allocated |
+|------- |---------:|---------:|---------:|---------:|---------:|---------:|---------:|---------:|------:|------:|------:|----------:|
+| ToJson | 483.7 us | 26.13 us | 77.05 us | 397.5 us | 438.2 us | 491.9 us | 796.2 us | 464.5 us |     - |     - |     - |  297280 B |
+| ToBtye |       NA |       NA |       NA |       NA |       NA |       NA |       NA |       NA |     - |     - |     - |         - |
+
+Benchmarks with issues:
+  SerializersBenchmark.ToBtye: Job-KZKGUT(IterationCount=100, RunStrategy=Monitoring)
+
+// * Warnings *
+Environment
+  Summary -> Detected error exit code from one of the benchmarks. It might be caused by following antivirus software:
+        - Windows Defender (windowsdefender://)
+        - Trend Micro OfficeScan Antivirus (C:\Program Files (x86)\Trend Micro\OfficeScan Client\Pccntmon.exe)
+Use InProcessToolchain to avoid new process creation.
+
+MinIterationTime
+  SerializersBenchmark.ToJson: IterationCount=100, RunStrategy=Monitoring -> The minimum observed iteration time is 397.5000 us which is very small. It's recommended to increase it.
+MultimodalDistribution
+  SerializersBenchmark.ToJson: IterationCount=100, RunStrategy=Monitoring -> It seems that the distribution is bimodal (mValue = 3.22)
+
+// * Hints *
+Outliers
+  SerializersBenchmark.ToJson: IterationCount=100, RunStrategy=Monitoring -> 11 outliers were detected (589.30 us..796.20 us)
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  StdDev    : Standard deviation of all measurements
+  Min       : Minimum
+  Q1        : Quartile 1 (25th percentile)
+  Q3        : Quartile 3 (75th percentile)
+  Max       : Maximum
+  Median    : Value separating the higher half of all measurements (50th percentile)
+  Gen 0     : GC Generation 0 collects per 1000 operations
+  Gen 1     : GC Generation 1 collects per 1000 operations
+  Gen 2     : GC Generation 2 collects per 1000 operations
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 us      : 1 Microsecond (0.000001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:02 (2.3 sec), executed benchmarks: 2
+
+Global total time: 00:00:08 (8.9 sec), executed benchmarks: 2
+// * Artifacts cleanup *
